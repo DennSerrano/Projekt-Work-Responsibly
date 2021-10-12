@@ -1,0 +1,155 @@
+/* =======================
+          Generally 
+======================= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000 */
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:#eee;
+}
+/* =======================
+          Header 
+======================= */
+header{
+    border-bottom: 2px solid #666;
+}
+header ul:nth-of-type(1){
+margin:6vh 0 0 15vw;
+}
+header ul:nth-of-type(1) li{
+    display:inline;
+
+}
+header ul:nth-of-type(1) li a{
+  color:#659d89;
+  text-decoration:none;
+  font-size: 20px;
+  padding-right: 2vw;
+}
+header h1{
+  color:#659d89;
+  font-size: 60px;
+  margin:20vh 0 0 15vw;
+}
+header p:nth-of-type(1){
+    font-size: 60px ;
+    font-weight: 700;
+    margin: 3vh 0 0 15vw;
+    width: 50vw;
+}
+header ul:nth-of-type(2){
+text-align: right;
+margin-right: 10vw;
+}
+header p:nth-of-type(2){
+    color:#333;
+    font-size:25px;
+    text-align: center;
+    padding:10vh 0;
+}
+header p:nth-of-type(2)::before{
+content: "↓";
+color:#333;
+font-size: 30px;
+font-weight: bolder;
+}
+/* =======================
+          Main Teil 1
+======================= */
+main section{
+ border-bottom: 2px solid #666;
+}
+main section:nth-of-type(1) h2{
+font-size: 30px;
+margin: 10vh 0 0 15vw;
+}
+main section:nth-of-type(1) p:nth-of-type(1){
+    margin: 3vh 0 0 15vw;
+    padding-bottom: 10vh;
+    font-size:20px;
+}
+main section div{
+    text-align: center;
+}
+main section div:nth-of-type(2){
+   margin-bottom: 20vh;
+}
+main section div img{
+margin:8vh 0 0 3vw;
+}
+main section div img:hover{
+    box-shadow: 0 0 5px 2px rgb(45, 44, 44);
+}
+/* =======================
+          Main Teil 2 odd
+======================= */
+
+section article:first-child h2{
+font-size:30px;
+margin:4vh 0 0 15vw;
+}
+section article:nth-of-type(odd) img{
+width: 40vw;
+margin:6vh 0 0 18vw;
+}
+section article:nth-of-type(odd) p{
+    margin:3vh 0 0 22vw;
+}
+section article:nth-of-type(odd) h3{
+    margin:3vh 0 0 18vw;
+}
+section article:nth-of-type(odd) p:last-child{
+    margin:3vh 0 0 30vw;
+}
+/* =======================
+          Main Teil 2 even
+======================= */
+section article:nth-of-type(even) div img{
+width: 40vw;
+margin-left: 20vw;
+text-align:right;
+}
+section article:nth-of-type(even) p{
+    text-align:center;
+    margin:3vh 0 0 10vw;
+}
+section article:nth-of-type(even) h3{
+    text-align:center;
+    margin:3vh 0 0 10vw;s
+}
+/* =======================
+Footer 
+======================= */
+footer nav{
+    text-align:center;
+    margin:10vh 0;
+}
+footer nav a{
+color:#666;
+text-decoration:none;
+font-size: 30px;
+
+}
+footer nav a:before{
+ content: "↑";
+    color:#666;
+    font-weight: bolder;
+    }
+
+footer p{
+color:#666;
+text-align: center;
+padding:1vw;
+}
+footer p:before{
+    color:#666;
+   content: "♼";
+   font-weight: bolder;
+    }
